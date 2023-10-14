@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Student Record System</title>
+  </head>
+  <body>
+    <form id="form-student">
+      <h1>Student Record System</h1>
+      <div>
+        <label for="name">Name:</label>
+        <input type="text" id="name" />
+      </div>
+      <div>
+        <label for="age">Age:</label>
+        <input type="number" id="age" />
+      </div>
+      <div>
+        <label for="grade">Grade:</label>
+        <input type="number" step="0.01" id="grade" />
+      </div>
+      <button type="submit">Add Student</button>
+    </form>
+
+    <h2>Students:</h2>
+    <div>
+      <label for="search">Search by name</label>
+      <input type="text" name="search" id="search" />
+    </div>
+    <ul id="studentList"></ul>
+
+    <script src="/app.js"></script>
+  </body>
+</html>

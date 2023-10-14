@@ -3,12 +3,13 @@
   <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="icon" type="image/x-icon" href="/assets/ic-favicon.png" />
     <title>Netflix</title>
     <script type="module" src="./js/main.js"></script>
   </head>
   <body>
-    <div class="app bg-primary-app" style="height: 100vh">
-      <div class="px-4">
+    <div class="app bg-primary-app h-full" style="height: 100%">
+      <div id="header" class="px-4">
         <nav class="navbar bg-primary-app">
           <a class="navbar-brand px-4" href="#">
             <img src="./assets/logo-netflix.svg" alt="logo netflix" />
@@ -52,6 +53,401 @@
             </li>
           </ul>
         </nav>
+      </div>
+      <div id="call-action" class="px-4">
+        <div class="align-middle">
+          <div class="row align-items-center">
+            <div class="col text-white px-4 mx-10">
+              <h1>
+                Nikmati Tontonan <br />Dimana Saja, dan<br />
+                Kapan Saja
+              </h1>
+              <p>
+                Tonton apa saja secara online dari komputer pribadi atau di
+                perangkat yang terhubung ke Internet dan mendukung aplikasi
+                Netflix, dan gunakan download untuk menonton saat kamu di
+                perjalanan dan tidak punya koneksi Internet.
+              </p>
+              <button type="button" class="btn-bd-primary mt-1">
+                Daftar Sekarang
+              </button>
+            </div>
+            <div class="col text-center">
+              <img src="/assets/images/img-hero.png" />
+            </div>
+          </div>
+        </div>
+      </div>
+      <div id="service" class="mb-4">
+        <div class="text-center text-white">
+          <h1>
+            Layan Terbaik yang <br />
+            Tidak mengecewakan
+          </h1>
+        </div>
+        <div class="mt-4 text-white">
+          <div class="px-4 text-left">
+            <div class="row gx-6">
+              <div class="col">
+                <div class="p-1">
+                  <div class="card card-service p-3" style="width: 18rem">
+                    <img
+                      src="/assets/icons/ic-tv.svg"
+                      class="card-img-top mx-2"
+                      alt="ic-tv"
+                      style="width: 5rem; height: 5rem"
+                    />
+                    <div class="card-header">
+                      <h5>Tonton Langsung di TV</h5>
+                    </div>
+
+                    <div class="card-body">
+                      <p class="card-text text-white">
+                        Tonton di Smart TV, Playstation, Xbox, Chromecast, Apple
+                        TV, pemutar Blu-ray, dan banyak lagi
+                      </p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="col">
+                <div class="p-1">
+                  <div class="card card-service p-3" style="width: 18rem">
+                    <img
+                      src="/assets/icons/ic-offline.svg"
+                      class="card-img-top mx-2"
+                      alt="ic-tv"
+                      style="width: 5rem; height: 5rem"
+                    />
+                    <div class="card-header">
+                      <h5>Download untuk offline</h5>
+                    </div>
+
+                    <div class="card-body">
+                      <p class="card-text text-white">
+                        Simpan dengan mudah agar selalu ada acara TV dan film
+                        yang bisa ditonton
+                      </p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="col">
+                <div class="p-1">
+                  <div class="card card-service p-3" style="width: 18rem">
+                    <img
+                      src="/assets/icons/ic-multiple.svg"
+                      class="card-img-top mx-2"
+                      alt="ic-tv"
+                      style="width: 5rem; height: 5rem"
+                    />
+                    <div class="card-header">
+                      <h5>Akses berbagai perangkat</h5>
+                    </div>
+
+                    <div class="card-body">
+                      <p class="card-text text-white">
+                        Streaming film dan acara TV tak terbatas di ponsel,
+                        tablet, laptop, dan TV-mu
+                      </p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="col">
+                <div class="p-1">
+                  <div class="card card-service p-3" style="width: 18rem">
+                    <img
+                      src="/assets/icons/ic-kids.svg"
+                      class="card-img-top mx-2"
+                      alt="ic-tv"
+                      style="width: 5rem; height: 5rem"
+                    />
+                    <div class="card-header">
+                      <h5>Buat profil untuk Anak</h5>
+                    </div>
+
+                    <div class="card-body">
+                      <p class="card-text text-white">
+                        Profil anak dilengkapi kontrol orang tua yang dilindungi
+                        PIN sehingga kamu bisa membatasi rating usia konten yang
+                        bisa ditonton anak
+                      </p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="col">
+                <div class="p-1">
+                  <div class="card card-service p-3" style="width: 18rem">
+                    <img
+                      src="/assets/icons/ic-tv.svg"
+                      class="card-img-top mx-2"
+                      alt="ic-tv"
+                      style="width: 5rem; height: 5rem"
+                    />
+                    <div class="card-header">Tonton Langsung di TV</div>
+
+                    <div class="card-body">
+                      <p class="card-text text-white">
+                        Some quick example text to build on the card title and
+                        make up the bulk of the card's content.
+                      </p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div id="preview" class="px-4">
+        <div class="container-md">
+          <div class="row align-items-center">
+            <div class="col text-center px-4">
+              <img src="/assets/images/img-preview-app.png" />
+            </div>
+            <div class="col text-white">
+              <h1>
+                Tonton Film, Acara TV Tak <br />
+                Terbatas, dan Lebih Banyak <br />Lagi
+              </h1>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div id="film" class="mb-4">
+        <div class="text-white px-4">
+          <div class="row">
+            <div class="col">
+              <div class="justify-content-start">
+                <h1>
+                  Film dan Acara TV <br />
+                  Populer Bulan Ini
+                </h1>
+              </div>
+            </div>
+            <div class="col">
+              <ul class="nav justify-content-end px-4 mx-3">
+                <button type="button" class="btn-bd-primary mt-1">
+                  Lihat semua
+                </button>
+              </ul>
+            </div>
+          </div>
+        </div>
+
+        <div class="mt-4 text-white">
+          <div class="px-4 text-left">
+            <div class="row gx-6">
+              <div class="col">
+                <div class="p-1">
+                  <div
+                    class="card card-film border-light p-3"
+                    style="width: 18rem"
+                  >
+                    <img
+                      src="/assets/images/img-film-list-1.png"
+                      class="card-img-top mx-2"
+                      alt="ic-tv"
+                      style="width: 15rem; height: 10rem"
+                    />
+
+                    <div class="mx-2">
+                      <div class="text-white">Peaky Blinder</div>
+                      <div class="card-text text-white">Crime, Drama</div>
+                      <div>
+                        <img
+                          src="/assets/icons/ic-star.svg"
+                          alt="ic-star"
+                        />8.8/10 IMDb
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="col">
+                <div class="p-1">
+                  <div
+                    class="card card-film border-light p-3"
+                    style="width: 18rem"
+                  >
+                    <img
+                      src="/assets/images/img-film-list-2.png"
+                      class="card-img-top mx-2"
+                      alt="ic-tv"
+                      style="width: 15rem; height: 10rem"
+                    />
+
+                    <div class="mx-2">
+                      <div class="text-white">Spider-Man: No Way Home</div>
+                      <div class="card-text text-white">
+                        Action, Adventure, Fantasy
+                      </div>
+                      <div>
+                        <img
+                          src="/assets/icons/ic-star.svg"
+                          alt="ic-star"
+                        />8.8/10 IMDb
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="col">
+                <div class="p-1">
+                  <div
+                    class="card card-film border-light p-3"
+                    style="width: 18rem"
+                  >
+                    <img
+                      src="/assets/images/img-film-list-3.png"
+                      class="card-img-top mx-2"
+                      alt="ic-tv"
+                      style="width: 15rem; height: 10rem"
+                    />
+
+                    <div class="mx-2">
+                      <div class="text-white">Arcane: League of Legends</div>
+                      <div class="card-text text-white">
+                        Animation, Action, Adventure
+                      </div>
+                      <div>
+                        <img
+                          src="/assets/icons/ic-star.svg"
+                          alt="ic-star"
+                        />9.2/10 IMDb
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="col">
+                <div class="p-1">
+                  <div
+                    class="card card-film border-light p-3"
+                    style="width: 18rem"
+                  >
+                    <img
+                      src="/assets/images/img-film-list-4.png"
+                      class="card-img-top mx-2"
+                      alt="ic-tv"
+                      style="width: 15rem; height: 10rem"
+                    />
+
+                    <div class="mx-2">
+                      <div class="text-white">Joker</div>
+                      <div class="card-text text-white">
+                        Crime, Drama, Thriller
+                      </div>
+                      <div>
+                        <img
+                          src="/assets/icons/ic-star.svg"
+                          alt="ic-star"
+                        />8.4/10 IMDb
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="col">
+                <div class="p-1">
+                  <div
+                    class="card card-film border-light p-3"
+                    style="width: 18rem"
+                  >
+                    <img
+                      src="/assets/images/img-film-list-1.png"
+                      class="card-img-top mx-2"
+                      alt="ic-tv"
+                      style="width: 15rem; height: 10rem"
+                    />
+
+                    <div class="mx-2">
+                      <div class="text-white">Peaky Blinder</div>
+                      <div class="card-text text-white">Crime, Drama</div>
+                      <div class="">
+                        <img
+                          src="/assets/icons/ic-star.svg"
+                          alt="ic-star"
+                        />8.8/10 IMDb
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div id="pricing" style="margin-top: 5rem">
+        <h1 class="text-center text-white">Pilih Paket yang Cocok Untukmu</h1>
+        <div class="row gx-6 px-5 mt-5 mb-5">
+          <div class="col">
+            <div class="container p-1">
+              <div
+                class="card card-pricing border-light p-3 mx-auto"
+                style="width: 23rem"
+              >
+                <div class="text-center">Basic</div>
+                <div class="text-center">
+                  <span class="text-center text-danger fw-bolder fs-3"
+                    >Rp 120,000</span
+                  >/bulan
+                </div>
+                <div class="mb-2 mt-2 ml-5 text-center">
+                  <img src="/assets/icons/ic-checklist.svg"/> <span> Ponsel, Tablet, Komputer, TV</span>
+                </div>
+                <div class="mb-2 mt-2 ml-5 text-center">
+                  <img src="/assets/icons/ic-checklist.svg"/> <span> Ponsel, Tablet, Komputer, TV</span>
+                </div>
+                <div class="mb-2 mt-2 ml-5 text-center">
+                  <img src="/assets/icons/ic-checklist.svg"/> <span> Ponsel, Tablet, Komputer, TV</span>
+                </div>
+                <div class="mb-2 mt-2 ml-5 text-center">
+                  <img src="/assets/icons/ic-checklist.svg"/> <span> Ponsel, Tablet, Komputer, TV</span>
+                </div>
+                <div class="mb-2 mt-2 ml-5 text-center">
+                  <img src="/assets/icons/ic-checklist.svg"/> <span> Ponsel, Tablet, Komputer, TV</span>
+                </div>
+                <div class="mb-2 mt-2 ml-5 text-center">
+                  <img src="/assets/icons/ic-checklist.svg"/> <span> Ponsel, Tablet, Komputer, TV</span>
+                </div>
+                <div class="mb-2 mt-2 ml-5 text-center">
+                  <img src="/assets/icons/ic-checklist.svg"/> <span> Ponsel, Tablet, Komputer, TV</span>
+                </div>
+                <div class="mb-2 mt-2 ml-5 text-center">
+                  <img src="/assets/icons/ic-checklist.svg"/> <span> Ponsel, Tablet, Komputer, TV</span>
+                </div>
+                <div class="text-center">
+                  <button type="button" class="btn-bd-primary mt-1">
+                    Pilih Paket
+                  </button>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="container p-1">
+              <div
+                class="card card-film border-light p-3 mx-auto"
+                style="width: 18rem"
+              >
+                tes
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="container p-1">
+              <div
+                class="card card-film border-light p-3 mx-auto"
+                style="width: 18rem"
+              >
+                tes
+              </div>
+            </div>
+          </div>
+        </div>
       </div>
     </div>
   </body>

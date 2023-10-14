@@ -1,14 +1,46 @@
 @import "bootstrap/scss/bootstrap";
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap');
+
+body {
+  font-family: 'Roboto', sans-serif;
+}
 
 .bg-primary-app {
-    background-color: #1A1C22;
+  background-color: #1a1c22;
 }
 
 .btn-bd-primary {
-  background-color: #DB202C; 
-  color: #fff; 
-  padding: 5px 25px; 
-  border: none; 
-  border-radius: 1rem; 
-  cursor: pointer; 
+  background-color: #db202c;
+    color: #fff;
+    padding: 5px 25px;
+    border: none;
+    border-radius: 1rem;
+    cursor: pointer;
+  box-shadow: 0px 5px 5px #bc0e19;
+  }
+  
+  .card-service {
+    border-radius: 15px;
+    background-color: #1F2127;
+    color: white;
+    height: 19rem;
+  }
+  
+  .card-film {
+    border-radius: 15px;
+    background-color: #1F2127;
+    color: white;
+    height: 17rem;
+  }
+  
+  #preview {
+    margin-top: 10rem;
+    margin-bottom: 10rem;
+  }
+  
+  .card-pricing {
+    border-radius: 15px;
+    background-color: #1F2127;
+    color: white;
+    height: 30rem;
 }
